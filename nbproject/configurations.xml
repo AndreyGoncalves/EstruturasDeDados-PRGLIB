@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <logicalFolder name="libs" displayName="libs" projectFiles="true">
+        <itemPath>libs/arvore-impl.h</itemPath>
+        <itemPath>libs/arvore.h</itemPath>
+        <itemPath>libs/fila-impl.h</itemPath>
+        <itemPath>libs/fila.h</itemPath>
+        <itemPath>libs/hash-impl.h</itemPath>
+        <itemPath>libs/hash.h</itemPath>
+        <itemPath>libs/lista-impl.h</itemPath>
+        <itemPath>libs/lista.h</itemPath>
+        <itemPath>libs/pilha-impl.h</itemPath>
+        <itemPath>libs/pilha.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="nbproject" displayName="nbproject" projectFiles="true">
+        <logicalFolder name="private" displayName="private" projectFiles="true">
+          <itemPath>nbproject/private/Makefile-variables.mk</itemPath>
+          <itemPath>nbproject/private/configurations.xml</itemPath>
+          <itemPath>nbproject/private/launcher.properties</itemPath>
+          <itemPath>nbproject/private/private.xml</itemPath>
+        </logicalFolder>
+        <itemPath>nbproject/Makefile-Debug.mk</itemPath>
+        <itemPath>nbproject/Makefile-Release.mk</itemPath>
+        <itemPath>nbproject/Makefile-impl.mk</itemPath>
+        <itemPath>nbproject/Makefile-variables.mk</itemPath>
+        <itemPath>nbproject/Package-Debug.bash</itemPath>
+        <itemPath>nbproject/Package-Release.bash</itemPath>
+        <itemPath>nbproject/configurations.xml</itemPath>
+        <itemPath>nbproject/project.xml</itemPath>
+      </logicalFolder>
+      <itemPath>prglib.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>nbproject</Elem>
+    <Elem>libs</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+          <commandLine>-std=c++11</commandLine>
+        </ccTool>
+      </compileType>
+      <item path="libs/arvore-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/arvore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/fila-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/fila.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/hash-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/lista-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/pilha-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/pilha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/Makefile-Debug.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Makefile-Release.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Makefile-impl.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Makefile-variables.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Package-Debug.bash" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Package-Release.bash" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/configurations.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/private/Makefile-variables.mk"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/private/configurations.xml"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/private/launcher.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/private/private.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/project.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="prglib.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="libs/arvore-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/arvore.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/fila-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/fila.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/hash-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/lista-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/lista.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/pilha-impl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/pilha.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/Makefile-Debug.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Makefile-Release.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Makefile-impl.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Makefile-variables.mk" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Package-Debug.bash" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/Package-Release.bash" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/configurations.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/private/Makefile-variables.mk"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/private/configurations.xml"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/private/launcher.properties"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/private/private.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/project.xml" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="prglib.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
